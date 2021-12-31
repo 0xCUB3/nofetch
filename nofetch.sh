@@ -47,6 +47,8 @@ set_type () {
         type=lttstore
     elif [ "$i" = '--flex' ]; then
         type=flex
+    elif [ "$i" = '--help' ]; then
+        type=help
     fi
 }
 
@@ -66,6 +68,7 @@ done
 
 # Default nofetch output
 if [ "$type" = "regular" ] && [ "$should_run" = "true" ]; then
+    clear
     echo """ ${color}
  __      _    _______    _______   _______   _________    ________   _       _
 | | \   | |  / _____ \  |  _____| |  _____| |___   ___|  / _______| | |     | |
@@ -78,6 +81,7 @@ if [ "$type" = "regular" ] && [ "$should_run" = "true" ]; then
 
 # LTTstore.com nofetch output
 elif [ "$type" = "lttstore" ] && [ "$should_run" = "true" ]; then
+clear
     echo """ ${color}
  _         _________   _________    ________   _________    _______    _______    _______         ________    _______    _____________
 | |       |___   ___| |___   ___|  /  ______| |___   ___|  / _____ \  |  ____  \ |  _____|       / _______|  / _____ \  |  ___   ___  |
@@ -90,6 +94,7 @@ elif [ "$type" = "lttstore" ] && [ "$should_run" = "true" ]; then
 
 # Flex output to flex the hardware you wish you had
 elif [ "$type" = "flex" ] && [ "$should_run" = "true" ]; then
+clear
     echo """ ${color}
 ${bold}${red}OS: ${normal}AmogOS
 ${bold}${red}Host: ${normal}Grandma's Computer
@@ -97,5 +102,24 @@ ${bold}${red}Uptime: ${normal}69 years, 420 days
 ${bold}${red}CPU: ${normal}AMD Ryzen Threadripper 6990X (420) @ 6.90Ghz
 ${bold}${red}GPU: ${normal}NVIDIA RTX 6090 1024 GB
 ${bold}${red}Memory: ${normal}0.0000001MiB / 4300800MiB
+"""
+
+# Help...obviously
+elif [ "$type" = "help" ] && [ "$should_run" = "true" ]; then
+clear
+    echo """ ${color}
+nofetch is the best fetch script ever. Don't argue.
+You downloaded it. It's yours now. Here's help if you need it ;)
+
+Syntax: nofetch --OPTION COLOR
+Options:
+    Colors:
+        red green blue yellow magenta cyan
+
+    Options:
+        --regular     Standard nofetch output
+        --lttstore    Prints 'lttstore.com' in nofetch fashion
+        --flex        Lets you flex on your friends because I know the skids want that
+        --help        Prints this message (but I guess you already figured that out)
 """
 fi
