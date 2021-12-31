@@ -46,6 +46,4 @@ Options:
 ```
 
 ## Pictures
-![Screen Shot 2021-12-31 at 4 23 58 PM](https://user-images.githubusercontent.com/94565160/147839302-8d41128e-5d43-41ee-8c21-637a3c81dd06.png) ![Screen Shot 2021-12-31 at 4 25 46 PM](https://user-images.githubusercontent.com/94565160/147839349-6c965363-ee7d-4c68-a2ba-2869cda66925.png) 
-![Screen Shot 2021-12-31 at 4 32 01 PM](https://user-images.githubusercontent.com/94565160/147839405-887a0f56-337c-4049-bfe0-f3e06ccf3eff.png)
-
+![Screen Shot 2021-12-31 at 4 23 58 PM](https://user-images.githubusercontent.com/94565160/147839438-7b7271de-e06b-4f19-8c8d-289009a58b62.png) ![Screen Shot 2021-12-31 at 4 25 46 PM](https://user-images.githubusercontent.com/94565160/147839439-f14b7aaf-78bc-4252-b146-528b97000d7b.png) ![Screen Shot 2021-12-31 at 4 32 01 PM](https://user-images.githubusercontent.com/94565160/147839445-30092960-462b-4f46-8255-562fc18a3183.png)
