@@ -47,3 +47,15 @@ Options:
 
 ## Pictures
 ![Screen Shot 2021-12-31 at 4 23 58 PM](https://user-images.githubusercontent.com/94565160/147839438-7b7271de-e06b-4f19-8c8d-289009a58b62.png) ![Screen Shot 2021-12-31 at 4 25 46 PM](https://user-images.githubusercontent.com/94565160/147839439-f14b7aaf-78bc-4252-b146-528b97000d7b.png) ![Screen Shot 2021-12-31 at 4 32 01 PM](https://user-images.githubusercontent.com/94565160/147839445-30092960-462b-4f46-8255-562fc18a3183.png)
+
+### Help me and stop this madness and bring down all fetch other fetch scripts! Share with everyone you know - using anything else is punishable by death
+
+## Final Words
+- In case I haven't mentioned before, fetch scripts are big, bloated, and overrated. This madness needs to stop!
+- If you want to help me code this revolution, DM me on Discord (0xCUBE#0001) or [Reddit](https://www.reddit.com/user/0xCUBE)
+- I dream of a world where [r/unixporn](https://www.reddit.com/r/unixporn/) doesn't have fetch scripts in every picture. Use nofetch instead to stop this abomination!
+
+## Contact
+- Discord: `0xCUBE#0001`
+- Reddit: https://www.reddit.com/user/0xCUBE
+- This Issues page is fine too
