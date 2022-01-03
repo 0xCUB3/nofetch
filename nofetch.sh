@@ -11,12 +11,12 @@ normal=$(tput sgr0)
 
 
 # Arbitrary colors to be used for text color. Default is used if not put as a command-line argument.
-red='\033[38;5;1m'
-green='\033[38;5;2m'
-yellow='\033[38;5;3m'
-blue='\033[38;5;4m'
-magenta='\033[38;5;5m'
-cyan='\033[38;5;6m'
+red="$(printf '\033[38;5;1m')"
+green="$(printf '\033[38;5;2m')"
+yellow="$(printf '\033[38;5;3m')"
+blue="$(printf '\033[38;5;4m')"
+magenta="$(printf '\033[38;5;5m')"
+cyan="$(printf '\033[38;5;6m')"
 
 # Sets the color to be used in the output via a command-line argument
 set_color () {
