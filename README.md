@@ -20,7 +20,6 @@ The world's fastest fetch script ever made. Runs on a complete potato. Made usin
 2) Open a new Terminal window. (see [this](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) for instructions).
 3) Type in: `sudo cp ~/Downloads/nofetch.sh /usr/local/bin && chmod +x /usr/local/bin/nofetch.sh`. Type in your password when necessary
 4) Type `nofetch.sh` to verify if it works.
-5) Go to THING to learn how to use nofetch!
 * Please note: Linux support cannot be guaranteed due to the sheer variety of Linux distributions. If you are having a problem with nofetch on your Linux install, please open an issue.
 
 ### Windows (experimental)
