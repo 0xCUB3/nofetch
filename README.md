@@ -18,8 +18,8 @@ The world's fastest fetch script ever made. Runs on a complete potato. Made usin
 ### macOS/Linux
 1) Download and extract the [latest release](https://github.com/0xCUB3/nofetch/releases/latest/download/nofetch.zip) to your Downloads folder.
 2) Open a new Terminal window. (see [this](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) for instructions).
-3) Type in: `sudo cp ~/Downloads/nofetch.sh /usr/local/bin && chmod +x /usr/local/bin/nofetch.sh`. Type in your password when necessary
-4) Type `nofetch.sh` to verify if it works.
+3) Type in: `sudo cp ~/Downloads/nofetch /usr/local/bin && chmod +x /usr/local/bin/nofetch`. Type in your password when necessary
+4) Type `nofetch` to verify if it works.
 * Please note: Linux support cannot be guaranteed due to the sheer variety of Linux distributions. If you are having a problem with nofetch on your Linux install, please open an issue.
 
 ### Windows (experimental)
@@ -27,12 +27,12 @@ NOTE: For Windows you will need to install WSL2. See [what is WSL](https://docs.
 1) Open a PowerShell window by using the keyboard shortcut `WINDOWS + R` and typing "powershell".
 2) In the newly opened PowerShell window type `wsl --install`. Follow the installation.
 3) Once WSL is installed, type in Windows Search: "WSL" and open the app.
-4) Type in the following: `sudo apt install curl unzip && curl -O https://github.com/0xCUB3/nofetch/releases/latest/download/nofetch.zip && unzip nofetch.zip && chmod +x nofetch.sh`. Type in your WSL password when necessary.
-5) Type in `nofetch.sh` to verify if it works.
+4) Type in the following: `sudo apt install curl unzip && curl -O https://github.com/0xCUB3/nofetch/releases/latest/download/nofetch.zip && unzip nofetch.zip && chmod +x nofetch`. Type in your WSL password when necessary.
+5) Type in `nofetch` to verify if it works.
 
 ## Usage
 ```
-Syntax: nofetch.sh --OPTION COLOR
+Syntax: nofetch --OPTION COLOR
 Options:
     Colors:
         red green blue yellow magenta cyan
