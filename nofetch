@@ -105,7 +105,7 @@ You downloaded it. It's yours now. Here's help if you need it ;)
 Syntax: nofetch --OPTION COLOR
 Options:
 	Colors:
-		red green blue yellow magenta cyan
+		[bright]<black | red | green | yellow | blue | magenta | cyan | white>
 
 	Options:
 		--regular     Standard nofetch output
