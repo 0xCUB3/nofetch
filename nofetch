@@ -61,11 +61,10 @@ set_type () {
 # Iterate through all command line arguments and see if any of them are valid
 for i; do
 	# POSIX sh doesn't have a '=~' operator so did this instead
-	if [ "$(echo "$i" | cut -c1-2)" = "--" ]; then
-		set_type "$i"
-	else
-		set_color "$i"
-	fi
+	case "$i" in
+		--*) set_type "$i";;
+		*) set_color "$i"
+	esac
 done
 
 # LTTstore.com nofetch output
