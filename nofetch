@@ -48,7 +48,7 @@ set_type () {
 	fi
 	is_type_set=true
 	case "$1" in
-		'--regular') ctype='regular';;
+		'--regular');;
 		'--lttstore' | '--lttstore.com') ctype='lttstore';;
 		'--flex') ctype='flex';;
 		'--help') ctype='help';;
