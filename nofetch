@@ -104,14 +104,14 @@ You downloaded it. It's yours now. Here's help if you need it ;)
 
 Syntax: nofetch --OPTION COLOR
 Options:
-	Colors:
-		[bright]<black | red | green | yellow | blue | magenta | cyan | white>
+    Colors:
+        [bright]<black | red | green | yellow | blue | magenta | cyan | white>
 
-	Options:
-		--regular     Standard nofetch output
-		--lttstore    Prints 'lttstore.com' in nofetch fashion
-		--flex        Lets you flex on your friends because I know the skids want that
-		--help        Prints this message (but I guess you already figured that out)
+    Options:
+        --regular     Standard nofetch output
+        --lttstore    Prints 'lttstore.com' in nofetch fashion
+        --flex        Lets you flex on your friends because I know the skids want that
+        --help        Prints this message (but I guess you already figured that out)
 "
 
 # Default nofetch output
