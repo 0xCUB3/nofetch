@@ -20,19 +20,19 @@ set_color () {
 	case "$1" in
 		'black') color="$(printf '\033[30m')";;
 		'red') color="$(printf '\033[31m')";;
-		'yellow') color="$(printf '\033[32m')";;
-		'green') color="$(printf '\033[33m')";;
-		'cyan') color="$(printf '\033[34m')";;
-		'blue') color="$(printf '\033[35m')";;
-		'magenta') color="$(printf '\033[36m')";;
+		'green') color="$(printf '\033[32m')";;
+		'yellow') color="$(printf '\033[33m')";;
+		'blue') color="$(printf '\033[34m')";;
+		'magenta') color="$(printf '\033[35m')";;
+		'cyan') color="$(printf '\033[36m')";;
 		'white') color="$(printf '\033[37m')";;
 		'brightblack') color="$(printf '\033[90m')";;
 		'brightred') color="$(printf '\033[91m')";;
-		'brightyellow') color="$(printf '\033[92m')";;
-		'brightgreen') color="$(printf '\033[93m')";;
-		'brightcyan') color="$(printf '\033[94m')";;
-		'brightblue') color="$(printf '\033[95m')";;
-		'brightmagenta') color="$(printf '\033[96m')";;
+		'brightgreen') color="$(printf '\033[92m')";;
+		'brightyellow') color="$(printf '\033[93m')";;
+		'brightblue') color="$(printf '\033[94m')";;
+		'brightmagenta') color="$(printf '\033[95m')";;
+		'brightcyan') color="$(printf '\033[96m')";;
 		'brightwhite') color="$(printf '\033[97m')";;
 		*)	echo 'Invalid color. Must be one of:
 [bright]<black | red | green | yellow | blue | magenta | cyan | white>.'
