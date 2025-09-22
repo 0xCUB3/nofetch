@@ -37,9 +37,9 @@ mine, please let me know***
 `sudo cp ~/Downloads/nofetch /usr/local/bin && chmod +x /usr/local/bin/nofetch`.
     Type in your password when necessary
  4. Type `nofetch` to verify if it works.
-      * Please note: Linux support cannot be guaranteed due to the sheer variety
-        of Linux distributions. If you are having a problem with nofetch on your
-        Linux install, please open an issue.
+* Please note: Linux support cannot be guaranteed due to the sheer variety
+  of Linux distributions. If you are having a problem with nofetch on your
+  Linux install, please open an issue.
 
 ### Windows (experimental) ###
 NOTE: For Windows you will need to install WSL2. See
